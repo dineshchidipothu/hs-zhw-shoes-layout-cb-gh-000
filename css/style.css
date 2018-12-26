@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
   width:100%; /* IE */
   max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -255,6 +255,7 @@ a.gplus:active { background-position: -80px -80px; }
 /********** Sections **********/
 
 section {
+  box-sizing: border-box;
   padding: 20px;
   background: white;
 }
@@ -302,4 +303,34 @@ footer a {
   text-decoration: underline;
 }
 
+#shoearc{
+  width:20%;
+  float:right;
+  column-count: 1;
+}
 /* code examples copyright Jonathan Grover 2012 */
+#top1{
+  //margin:0px,2px,2px,0px;
+  float: left;
+//column-count: 3;
+  //column-width: 100px;
+  width:62.66%;
+  //display:block;
+  //float:left;
+}
+.shadow{
+  margin:1%;
+}
+
+#col-1{
+  float:left;
+  width:31.33%;
+}
+#col-2{
+  float:left;
+  width:31.33%;
+}
+#col-3{
+  float:right;
+  width:31.33%;
+}
